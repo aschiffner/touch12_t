@@ -35,6 +35,7 @@ void loop(){
     for (i=0 ;i<12;i++){
       if(touchStates[i])
          Tonausg(i);
+         Serial.println(i);
     }
 }
 
